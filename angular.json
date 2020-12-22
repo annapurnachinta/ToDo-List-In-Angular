@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "todoListAngular"
+  "defaultProject": "todoListAngular",
+  "cli": {
+    "analytics": false
+  }
 }

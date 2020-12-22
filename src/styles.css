@@ -1,1 +1,60 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+	justify-content: center;
+	display: flex;
+	font-family: 'Poppins', sans-serif;
+}
+.main{
+	width:400px; 
+	padding: 15px; 
+	background-color: #ededed;
+}
+h1{
+	text-align: center; 
+	color: #e69d17; 
+	margin: 10px;
+}
+input[type=text]{
+	width: 90%;
+	padding: 10px;
+	font-size: 16px;
+	margin-left: 8px;
+	border-radius: 3px;
+	border:none;
+	outline: none;
+}
+.todo-list{
+	position: relative;
+}
+.todo-list span{
+	position: absolute;
+	top: -10px;
+	right: -4px;
+	background: #e69d17;
+	padding: 20px;
+	display: flex;
+	border-radius: 100%;
+	cursor: pointer;
+}
+ul{
+	padding: 2px;
+	list-style: none;
+}
+ul li{
+	background:#fff;
+	margin: 5px;
+	padding: 10px;
+	border-right: 4px solid #e69d17; 
+	border-left: 4px solid #e69d17; 
+}
+ul li i{
+	padding: 4px;
+	float: right;
+	cursor: pointer;
+}
+p{
+	color: red;
+	text-align: center;
+}
